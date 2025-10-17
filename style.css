@@ -1,0 +1,73 @@
+
+
+:root{
+    --Cor-primaria: #a7c7e7;
+    --Cor-secundaria: #4b5563;
+    --Cor-fundo: #f5f7fa;
+    --Cor-texto: #333;
+    --Cor-botao: #b5cfff;
+}
+
+*{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; /* Fonte pq eu estava com preguiça */
+}
+
+body{
+    background-color: var(--Cor-fundo);
+    color: var(--Cor-texto);
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+span{
+    color: var(--Cor-primaria);
+    font-weight: bold;
+}
+
+h1{
+    color: var(--Cor-primaria);
+}
+
+.secondh1{
+    color: var(--Cor-secundaria);
+}
+
+.italic{
+    font-style: italic;
+    font-size: 14px;
+}
+/*====A Arte de Comunicar Sem Destruir====*/
+.arte_container{    
+    display: flex;
+    padding: 30px;
+}
+
+.esquerda{
+    text-align: left;
+}
+
+.direita{
+    text-align: right;
+}
+
+/*====O Problema====*/
+.problema_container{
+    display: flex;
+    padding: 30px;
+    background-color: var(--Cor-primaria);
+    color: white;
+}
+
+li{
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
+/*====O Caminho====*/
+.caminho_container{    
+    display: flex;
+    padding: 30px;
+}
