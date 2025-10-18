@@ -6,6 +6,7 @@
     --Cor-fundo: #f5f7fa;
     --Cor-texto: #333;
     --Cor-botao: #b5cfff;
+    
 }
 
 *{
@@ -70,4 +71,12 @@ li{
 .caminho_container{    
     display: flex;
     padding: 30px;
+}
+
+/*====Estratégias====*/
+.estrategias_container{    
+    display: flex;
+    padding: 30px;
+    background-color: var(--Cor-primaria);
+    color: white;
 }
