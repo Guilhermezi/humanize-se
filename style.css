@@ -80,3 +80,12 @@ li{
     background-color: var(--Cor-primaria);
     color: white;
 }
+
+/*=====Rodapé=====*/
+footer{
+    background-color: var(--Cor-secundaria);
+    color: var(--Cor-primaria);
+    margin-top: 5%;
+    text-align: center;
+    padding: 20px;
+}
