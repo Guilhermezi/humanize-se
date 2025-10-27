@@ -36,19 +36,8 @@
 
         // Modal
         const modal = document.getElementById('modal');
-        const btnCaminho = document.getElementById('btn-caminho');
-        const btnInspireSe = document.getElementById('btn-inspire-se');
         const closeModal = document.querySelector('.close-modal');
         const formCNV = document.getElementById('form-cnv');
-
-        // Abrir modal
-        btnCaminho.addEventListener('click', () => {
-            modal.style.display = 'flex';
-        });
-
-        btnInspireSe.addEventListener('click', () => {
-            modal.style.display = 'flex';
-        });
 
         // Fechar modal
         closeModal.addEventListener('click', () => {

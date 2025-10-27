@@ -57,6 +57,11 @@
             text-decoration: none;
         }
 
+        .logo img {
+            height: 40px;
+            width: auto;
+        }
+
         .nav-links {
             display: flex;
             list-style: none;
@@ -208,6 +213,14 @@
             transform: scale(1.3);
         }
 
+        /* Ajuste de cor para bolinhas em seções escuras */
+        #problema .dot,
+        #estrategias .dot,
+        #problema .dot-mobile,
+        #estrategias .dot-mobile {
+            background-color: var(--cor-branco);
+        }
+
         /* Seções gerais */
         section {
             padding: 100px 0;
@@ -329,7 +342,10 @@
 
         /* Botões */
         .btn {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
             background-color: var(--cor-destaque);
             color: var(--cor-branco);
             padding: 12px 30px;
@@ -341,10 +357,6 @@
             transition: var(--transicao);
             box-shadow: var(--sombra);
             text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
         }
 
         .btn:hover {
@@ -353,12 +365,28 @@
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
         }
 
+        /* Link de download */
+        .download-link {
+            display: block;
+            margin-top: 15px;
+            color: var(--cor-primaria);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transicao);
+            text-align: center;
+        }
+
+        .download-link:hover {
+            text-decoration: underline;
+        }
+
         /* Imagens */
         .imagem-container {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100%;
+            flex-direction: column;
         }
 
         .imagem-placeholder {
