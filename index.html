@@ -3,113 +3,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Humanize-se</title>
+    <title>Humanize-se | Comunicação Não Violenta</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <section id="Arte">
-            <div class="arte_container">
-                <div class="esquerda">
-                    <h1>A Arte de Comunicar Sem Destruir (CNV)</h1>
-                    <h3>Descubra como aplicar a Comunicação Não Violenta nas redes sociais; <br> Especialmente no Instagram, e transforme seu jeito de se expressar online.</h3>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">Humanize-se</a>
+            <button class="mobile-menu" id="mobile-menu">
+                <i class="ri-menu-line"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#arte"><i class="ri-home-4-line"></i> Início</a></li>
+                <li><a href="#problema"><i class="ri-alert-line"></i> Problema</a></li>
+                <li><a href="#caminho"><i class="ri-road-map-line"></i> Solução</a></li>
+                <li><a href="#estrategias"><i class="ri-tools-line"></i> Estratégias</a></li>
+                <li><a href="#inspire-se"><i class="ri-lightbulb-flash-line"></i> Inspiração</a></li>
+            </ul>
+        </div>
+    </header>
 
-                    <p>As <span>mídias sociais</span> se tornaram palco de debates, opiniões e também de conflitos. A Comunicação Não Violenta <span>(CNV)</span> surge como uma forma de criar pontes em vez de muros, ajudando a expressar sentimentos e opiniões com respeito e empatia.</p>
+    <!-- Menu Mobile -->
+    <div class="mobile-nav" id="mobile-nav">
+        <ul>
+            <li><a href="#arte"><i class="ri-home-4-line"></i> Início</a></li>
+            <li><a href="#problema"><i class="ri-alert-line"></i> Problema</a></li>
+            <li><a href="#caminho"><i class="ri-road-map-line"></i> Solução</a></li>
+            <li><a href="#estrategias"><i class="ri-tools-line"></i> Estratégias</a></li>
+            <li><a href="#inspire-se"><i class="ri-lightbulb-flash-line"></i> Inspiração</a></li>
+        </ul>
+    </div>
+
+    <!-- Overlay para fechar menu -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Navegação por bolinhas para desktop -->
+    <div class="dot-navigation">
+        <div class="dot active" data-section="arte"></div>
+        <div class="dot" data-section="problema"></div>
+        <div class="dot" data-section="caminho"></div>
+        <div class="dot" data-section="estrategias"></div>
+        <div class="dot" data-section="inspire-se"></div>
+    </div>
+
+    <!-- Navegação por bolinhas para mobile -->
+    <div class="dot-navigation-mobile">
+        <div class="dot-mobile active" data-section="arte"></div>
+        <div class="dot-mobile" data-section="problema"></div>
+        <div class="dot-mobile" data-section="caminho"></div>
+        <div class="dot-mobile" data-section="estrategias"></div>
+        <div class="dot-mobile" data-section="inspire-se"></div>
+    </div>
+
+    <!-- Seção Arte -->
+    <section id="arte">
+        <div class="container section-container">
+            <div class="esquerda">
+                <h1>A Arte de Comunicar Sem Destruir (CNV)</h1>
+                <h3>Descubra como aplicar a Comunicação Não Violenta nas redes sociais, especialmente no Instagram, e transforme seu jeito de se expressar online.</h3>
+                <p>As <span>mídias sociais</span> se tornaram palco de debates, opiniões e também de conflitos. A Comunicação Não Violenta <span>(CNV)</span> surge como uma forma de criar pontes em vez de muros, ajudando a expressar sentimentos e opiniões com respeito e empatia.</p>
+            </div>
+            <div class="direita">
+                <div class="imagem-container">
+                    <div class="imagem-placeholder">
+                        <img src="./img/Comunicação Empática.jpg" alt="Imagem: Comunicação Empática">
+                    </div>
                 </div>
-                <div class="direita">
-                    <img src="./img/interrogação.webp" alt="">
-                    <p class="italic">“Mudar a mídia começa na sua mensagem.”</p>
+                <p class="italic">"Mudar a mídia começa na sua mensagem."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Problema -->
+    <section id="problema">
+        <div class="container section-container reverse">
+            <div class="esquerda">
+                <h1>Quando a palavra machuca</h1>
+                <p>A cada dia, milhares de comentários e mensagens ofensivas são publicados nas redes. Mesmo com avisos e políticas contra discurso de ódio, conteúdos racistas, homofóbicos e preconceituosos ainda circulam livremente.</p>
+                <p><strong>Destaques:</strong></p>
+                <ul>
+                    <li>Ofensas em comentários e mensagens privadas.</li>
+                    <li>Reels e posts com conteúdo discriminatório.</li>
+                    <li>Falta de punição e normalização do discurso violento.</li>
+                </ul>
+                <p>Além disso, a pressão por curtidas e seguidores pode levar a um comportamento agressivo, onde as pessoas se sentem encorajadas a atacar ou criticar outras para ganhar atenção.</p>
+            </div>
+            <div class="direita">
+                <div class="imagem-container">
+                    <div class="imagem-placeholder">
+                        <img src="./img/palavras.svg" alt="Imagem: Impacto das Palavras">
+                    </div>
+                </div>
+                <p class="italic">"O ciclo da violência digital se alimenta da reação impulsiva e da falta de empatia."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Caminho -->
+    <section id="caminho">
+        <div class="container section-container">
+            <div class="esquerda">
+                <h1>O poder de falar e ouvir com empatia</h1>
+                <p>Criada por Marshall Rosenberg, a <span>CNV propõe quatro passos simples</span> para transformar conflitos:</p>
+                <ol>
+                    <li><i class="ri-eye-line"></i> Observar sem julgar.</li>
+                    <li><i class="ri-heart-line"></i> Reconhecer os sentimentos envolvidos.</li>
+                    <li><i class="ri-focus-mode"></i> Compreender a necessidade por trás da emoção.</li>
+                    <li><i class="ri-handshake-line"></i> Fazer um pedido claro e respeitoso.</li>
+                </ol>
+                <p>A CNV ajuda a separar fatos de julgamentos, tornando a conversa mais humana, mesmo em ambientes digitais.</p>
+            </div>
+            <div class="direita">
+                <div class="imagem-container">
+                    <button class="btn" id="btn-caminho"><i class="ri-information-line"></i> Saiba Mais Sobre CNV</button>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="Problema">
-            <div class="problema_container">
-                <div class="esquerda">
-                    <h1 class="secondh1">Quando a palavra machuca</h1>
-
-                    <p>A cada dia, milhares de comentários e mensagens ofensivas são publicados nas redes. Mesmo com avisos e políticas contra discurso de ódio, conteúdos racistas, homofóbicos e preconceituosos ainda circulam livremente.</p>
-
-                    <p><strong>Destaques:</strong></p>
-                    <ul>
-                        <li>Ofensas em comentários e mensagens privadas.</li>
-                        <li>Reels e posts com conteúdo discriminatório.</li>
-                        <li>Falta de punição e normalização do discurso violento.</li>
-                    </ul>
-
-                    <p>Além disso, a pressão por curtidas e seguidores pode levar a um comportamento agressivo, onde as pessoas se sentem encorajadas a atacar ou criticar outras para ganhar atenção.</p>
+    <!-- Seção Estratégias -->
+    <section id="estrategias">
+        <div class="container section-container reverse">
+            <div class="esquerda">
+                <h1>Ferramentas para um Feed Empático</h1>
+                <p>A comunicação não violenta pode transformar completamente sua experiência nas redes sociais. Aqui estão algumas estratégias práticas:</p>
+                <ol>
+                    <li><strong>Posts Empáticos:</strong> Fale de forma inclusiva, validando emoções antes de argumentar.</li>
+                    <li><strong>Comentários a Frio:</strong> Respire antes de responder — pense na necessidade, não no ataque.</li>
+                    <li><strong>O Poder do Silêncio:</strong> Nem toda briga merece sua energia.</li>
+                    <li><strong>Visual Neutro:</strong> Prefira cores e imagens que transmitam calma e clareza.</li>
+                </ol>
+                <p>Aplicar essas estratégias diariamente pode transformar sua relação com as redes sociais e com as pessoas ao seu redor.</p>
+            </div>
+            <div class="direita">
+                <div class="imagem-container">
+                    <div class="imagem-placeholder">
+                        <img src="./img/Estratégias CNV.png" alt="Imagem: Estratégias CNV">
+                    </div>
                 </div>
-                <div class="direita">
-                    <img src="./img/interrogação.webp" alt="">
-                    <p class="italic">“O ciclo da violência digital se alimenta da reação impulsiva e da falta de empatia.”</p>
+                <p class="italic">"A comunicação não violenta não é sobre ser 'bonzinho', mas sobre ser autêntico com empatia."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Inspire-se -->
+    <section id="inspire-se">
+        <div class="container section-container">
+            <div class="esquerda">
+                <h1>Da violência à conexão</h1>
+                <p>Apresente histórias reais e exemplos positivos: pessoas e criadores que transformaram críticas em diálogos e usaram as redes para promover respeito.</p>
+                <p><strong>Mensagem final:</strong></p>
+                <p>O futuro das mídias sociais depende da forma como escolhemos falar — e ouvir.</p>
+                <p><strong>🌿 Use sua voz para construir, não destruir.</strong></p>
+            </div>
+            <div class="direita">
+                <div class="imagem-container">
+                    <button class="btn" id="btn-inspire-se"><i class="ri-book-open-line"></i> Quero Aprender Mais</button>
                 </div>
             </div>
-        </section>
-        
-        <section id="Caminho">
-            <div class="caminho_container">
-                <div class="esquerda">
-                    <h1>O poder de falar e ouvir com empatia</h1>
+        </div>
+    </section>
 
-                    <p>Criada por Marshall Rosenberg, a <span>CNV propõe quatro passos simples</span> para transformar conflitos:</p>
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p><i class="ri-heart-line"></i> Humanize-se - Comunicação Não Violenta nas Redes Sociais</p>
+            <p>Transformando conexões digitais através da empatia</p>
+        </div>
+    </footer>
 
-                    <ol>
-                        <li>👁️ Observar sem julgar.</li>
-                        <li>❤️ Reconhecer os sentimentos envolvidos.</li>
-                        <li>🎯 Compreender a necessidade por trás da emoção.</li>
-                        <li>🤝 Fazer um pedido claro e respeitoso.</li>
-                    </ol>
-
-                    <p>A CNV ajuda a separar fatos de julgamentos, tornando a conversa mais humana, mesmo em ambientes digitais.</p>
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2><i class="ri-information-line"></i> Quer saber mais sobre CNV?</h2>
+            <p>Preencha o formulário abaixo para receber materiais exclusivos sobre Comunicação Não Violenta:</p>
+            <form id="form-cnv">
+                <div class="form-group">
+                    <label for="nome"><i class="ri-user-line"></i> Nome:</label>
+                    <input type="text" id="nome" required>
                 </div>
-                <div class="direita">
-                    <button>ooooooooooooooo clica aquiiiiiiiiiiiiiiiii</button>
+                <div class="form-group">
+                    <label for="email"><i class="ri-mail-line"></i> E-mail:</label>
+                    <input type="email" id="email" required>
                 </div>
-            </div>
-        </section>
-
-        <section id="estrategias">
-            <div class="estrategias_container">
-                <div class="esquerda">
-                    <h1 class="secondh1">Ferramentas para um Feed Empático</h1>
-
-                    <p>A cada dia, milhares de comentários e mensagens ofensivas são publicados nas redes. Mesmo com avisos e políticas contra discurso de ódio, conteúdos racistas, homofóbicos e preconceituosos ainda circulam livremente.</p>
-
-                    <ol>
-                        <li><strong>Posts Empáticos:</strong> Fale de forma inclusiva, validando emoções antes de argumentar.</li>
-                        <li><strong>Comentários a Frio:</strong> Respire antes de responder — pense na necessidade, não no ataque.</li>
-                        <li><strong>O Poder do Silêncio:</strong> Nem toda briga merece sua energia.</li>
-                        <li><strong>Visual Neutro:</strong> Prefira cores e imagens que transmitam calma e clareza.</li>
-                    </ol>
-
-                    <p>Além disso, a pressão por curtidas e seguidores pode levar a um comportamento agressivo, onde as pessoas se sentem encorajadas a atacar ou criticar outras para ganhar atenção.</p>
+                <div class="form-group">
+                    <label for="interesse"><i class="ri-chat-quote-line"></i> O que mais te interessa sobre CNV?</label>
+                    <textarea id="interesse"></textarea>
                 </div>
-                <div class="direita">
-                    <img src="./img/interrogação.webp" alt="">
-                    <p class="italic">“O ciclo da violência digital se alimenta da reação impulsiva e da falta de empatia.”</p>
-                </div>
-            </div>
-            <section id="inspire-se">
-            <div class="caminho_container">
-                <div class="esquerda">
-                    <h1>Da violência à conexão</h1>
+                <button type="submit" class="btn"><i class="ri-send-plane-line"></i> Enviar</button>
+            </form>
+        </div>
+    </div>
 
-                    <p>Apresente histórias reais e exemplos positivos: pessoas e criadores que transformaram críticas em diálogos e usaram as redes para promover respeito.</p>
-
-                    <p><strong>Mensagem final:</strong>
-                        <br>
-                        O futuro das mídias sociais depende da forma como escolhemos falar — e ouvir.
-                        <br>
-                        <strong>🌿 Use sua voz para construir, não destruir.</strong>
-                    </p>
-
-                </div>
-                <div class="direita">
-                    <button>Não sei oq por aquiiiiiiiiiiiiiiii</button>
-                </div>
-            </div>
-        </section>
-        </section>
-    </main>
+    <script src="index.js"></script>
 </body>
 </html>
