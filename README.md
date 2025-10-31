@@ -68,3 +68,88 @@ O design foi inspirado em tons **suaves e acolhedores**, transmitindo calma e em
 A logo apresenta uma **placa de “pare” estilizada**, simbolizando o ato de interromper a violência digital e abrir espaço para o diálogo.
 
 ---
+
+English version:
+# 🌿 Humanize Yourself — Nonviolent Communication on the Internet
+
+**Humanize Yourself** is a digital movement that promotes **empathy, respect, and active listening on social media**.
+
+Our goal is to transform online communication into a space for **dialogue, awareness, and connection**. 💬❤️
+
+> 🌍 We believe that the digital world also feels — and communicating with empathy is the first step to changing the internet.
+
+---
+
+## 🌐 Access the Project
+
+🔗 **See the full website:** [https://guilhermezi.github.io/humanize-se/](https://guilhermezi.github.io/humanize-se/)
+
+---
+
+## 💡 About the Project
+
+**Humanize Yourself** emerged as an educational and interactive initiative to apply the principles of **Nonviolent Communication (NVC)** to the digital environment.
+
+The website offers reflections, strategies, and resources to help users express themselves with more empathy on social media—especially on **Instagram**.
+
+### ✳️ Topics covered:
+- Digital violence and hate speech on social media 🧨
+- Empathetic communication as a tool for transformation 💞
+- Practical strategies for a **more human and conscious feed**
+
+- Real and inspiring examples of behavioral change 🌱
+
+---
+
+## 🧭 Website Structure
+
+The website is divided into five main sections:
+
+| Section | Description |
+
+|-------|------------|
+
+| 🏠 **Home** | Introduces the art of communicating without destroying. |
+
+| ⚠️ **Problem** | Exposes the impacts of words and digital violence. |
+
+| 🛤 **Solution (NVC)** | Presents the four steps of Nonviolent Communication. |
+
+| 🧰 **Strategies** | Teaches empathy and self-control practices online. |
+
+| 💡 **Inspiration** | Shows positive examples and encourages change. |
+
+---
+
+## 🧠 Fundamentals of Nonviolent Communication (NVC)
+
+Based on the work of **Marshall Rosenberg**, the site highlights the **4 pillars of NVC**:
+1. 👁 **Observe without judging**
+2. 💖 **Recognize feelings**
+3. 🎯 **Understand needs**
+4. 🤝 **Make clear and respectful requests**
+
+These principles help create more human conversations, even in digital contexts.
+
+---
+
+## ⚙️ Technologies Used
+
+- **HTML5** — Semantic and accessible structure
+
+- **CSS3** — Responsive style and smooth visual design
+- **JavaScript (ES6)** — Interactivity and animations
+
+- **Remix Icon** — Modern and lightweight icons
+
+- **Responsive Design** — Fully adapted to mobile devices 📱
+
+---
+
+## 🎨 Visual Identity
+
+The design was inspired by **soft and welcoming** tones, conveying calm and empathy.
+
+The logo features a **stylized “stop” sign**, symbolizing the act of interrupting digital violence and opening space for dialogue.
+
+---
